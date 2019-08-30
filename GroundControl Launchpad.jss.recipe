@@ -10,6 +10,12 @@
 	<string>com.github.jss-recipes.jss.GroundControlLaunchpad</string>
 	<key>Input</key>
 	<dict>
+		<key>BUNDLE_ID</key>
+		<string>com.GroundControl.GroundControlLaunchpad</string>
+		<key>DOWNLOAD_URL</key>
+		<string>https://www.groundctl.com/download/459</string>
+		<key>NAME</key>
+		<string>GroundControlLaunchpad</string>
 		<key>CATEGORY</key>
 		<string>Updates</string>
 		<key>GROUP_NAME</key>
@@ -18,14 +24,16 @@
 		<string>SmartGroupTemplate.xml</string>
 		<key>LANGUAGE</key>
 		<string>English</string>
-		<key>NAME</key>
-		<string>GroundControl Launchpad</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.14.x,10.13.x,10.12.x,10.11.x</string>
+		<key>OS_VERSION</key>
+		<string>10.11.0</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Updates</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string></string>
+		<string>Desktop software which runs the Workflows and Automation tasks from GroundCtl.com</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>%NAME%.png</string>
 	</dict>
